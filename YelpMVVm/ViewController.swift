@@ -44,9 +44,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         guard let cell = tableView.dequeueReusableCell(withIdentifier: CustomTableViewCell.identifier, for: indexPath) as? CustomTableViewCell else { return UITableViewCell() }
                          
         cell.accessLabel.text = models[indexPath.row].id
-        cell.distanceLabel.text = "models[indexPath.row]."
+        cell.distanceLabel.text =  "\(String(describing: models[indexPath.row].distance))"
         cell.nameLabel.text = models[indexPath.row].name
-        cell.ratingLabel.text = "5 Stars"
+        cell.ratingLabel.text = "\(String(describing: models[indexPath.row].rating))"
+        cell.accessLabel.text = "\(models[indexPath.row].is_closed)"
         cell.imageView?.image = UIImage(systemName: "pencil")
   
         return cell

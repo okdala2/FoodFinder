@@ -11,17 +11,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
-    
-    let yelpKey = "yE68wDZPFVU42ucJRxjusT38C__NyvDIwWkTOo1oxMHOpHzngZF0E9Pg-XMTa34HBOblDG22LYh2GxBh3_5awYiUYqBf_zw02CXD0nfBZvo-6iH0G7pHOmnmURkoYXYx"
-    
-    
-
-
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead)       
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -51,7 +44,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
     }
-
-
 }
 

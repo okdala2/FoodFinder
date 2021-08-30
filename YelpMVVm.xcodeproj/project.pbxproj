@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F4ABBEE26DB23AD009351A4 /* UIIMageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4ABBED26DB23AD009351A4 /* UIIMageView+Ext.swift */; };
 		2F79206B26D84F1C0000AC94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F79206A26D84F1C0000AC94 /* AppDelegate.swift */; };
 		2F79206D26D84F1C0000AC94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F79206C26D84F1C0000AC94 /* SceneDelegate.swift */; };
 		2F79206F26D84F1C0000AC94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F79206E26D84F1C0000AC94 /* ViewController.swift */; };
@@ -14,13 +15,17 @@
 		2F79207426D84F230000AC94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F79207326D84F230000AC94 /* Assets.xcassets */; };
 		2F79207726D84F230000AC94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F79207526D84F230000AC94 /* LaunchScreen.storyboard */; };
 		2F79207F26D85BE60000AC94 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F79207E26D85BE60000AC94 /* Models.swift */; };
-		2F79208226D85CAB0000AC94 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F79208026D85CAB0000AC94 /* FoodTableViewCell.swift */; };
 		2F79208726D86A640000AC94 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F79208626D86A640000AC94 /* APICaller.swift */; };
 		2F79208926D991430000AC94 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F79208826D991430000AC94 /* CustomTableViewCell.swift */; };
 		2F79208B26D9B0DA0000AC94 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F79208A26D9B0D90000AC94 /* DetailViewController.swift */; };
+		2F7E55A326DC02A3000EE4BB /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7E55A226DC02A3000EE4BB /* String.swift */; };
+		2F7E55AF26DC7A5C000EE4BB /* ResturantDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7E55AE26DC7A5C000EE4BB /* ResturantDetailViewModel.swift */; };
+		2F7E55B226DCBD2F000EE4BB /* HoverButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7E55B126DCBD2F000EE4BB /* HoverButton.swift */; };
+		38C814961EC69DD189F847A2 /* Pods_YelpMVVm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF54162793BABB38F705114A /* Pods_YelpMVVm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F4ABBED26DB23AD009351A4 /* UIIMageView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIIMageView+Ext.swift"; sourceTree = "<group>"; };
 		2F79206726D84F1C0000AC94 /* YelpMVVm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YelpMVVm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F79206A26D84F1C0000AC94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F79206C26D84F1C0000AC94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,10 +35,15 @@
 		2F79207626D84F230000AC94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F79207826D84F230000AC94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F79207E26D85BE60000AC94 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		2F79208026D85CAB0000AC94 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
 		2F79208626D86A640000AC94 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		2F79208826D991430000AC94 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		2F79208A26D9B0D90000AC94 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2F7E55A226DC02A3000EE4BB /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		2F7E55AE26DC7A5C000EE4BB /* ResturantDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantDetailViewModel.swift; sourceTree = "<group>"; };
+		2F7E55B126DCBD2F000EE4BB /* HoverButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverButton.swift; sourceTree = "<group>"; };
+		450AC3A9D8EAFAB28D45BDAF /* Pods-YelpMVVm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelpMVVm.debug.xcconfig"; path = "Target Support Files/Pods-YelpMVVm/Pods-YelpMVVm.debug.xcconfig"; sourceTree = "<group>"; };
+		8E854AC89EBEADDD7D93ACF9 /* Pods-YelpMVVm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelpMVVm.release.xcconfig"; path = "Target Support Files/Pods-YelpMVVm/Pods-YelpMVVm.release.xcconfig"; sourceTree = "<group>"; };
+		FF54162793BABB38F705114A /* Pods_YelpMVVm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YelpMVVm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C814961EC69DD189F847A2 /* Pods_YelpMVVm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05EE0C58602625F88A6D55CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF54162793BABB38F705114A /* Pods_YelpMVVm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2F79205E26D84F1C0000AC94 = {
 			isa = PBXGroup;
 			children = (
 				2F79206926D84F1C0000AC94 /* YelpMVVm */,
 				2F79206826D84F1C0000AC94 /* Products */,
+				AC99795B2D5FCC116E369CFE /* Pods */,
+				05EE0C58602625F88A6D55CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,20 +87,96 @@
 		2F79206926D84F1C0000AC94 /* YelpMVVm */ = {
 			isa = PBXGroup;
 			children = (
-				2F79206A26D84F1C0000AC94 /* AppDelegate.swift */,
-				2F79206C26D84F1C0000AC94 /* SceneDelegate.swift */,
-				2F79206E26D84F1C0000AC94 /* ViewController.swift */,
-				2F79208A26D9B0D90000AC94 /* DetailViewController.swift */,
-				2F79208026D85CAB0000AC94 /* FoodTableViewCell.swift */,
-				2F79207E26D85BE60000AC94 /* Models.swift */,
-				2F79208626D86A640000AC94 /* APICaller.swift */,
-				2F79207026D84F1C0000AC94 /* Main.storyboard */,
-				2F79208826D991430000AC94 /* CustomTableViewCell.swift */,
-				2F79207326D84F230000AC94 /* Assets.xcassets */,
-				2F79207526D84F230000AC94 /* LaunchScreen.storyboard */,
+				2F7E55B326DCC610000EE4BB /* Networking */,
+				2F7E55A926DC4C74000EE4BB /* Support */,
 				2F79207826D84F230000AC94 /* Info.plist */,
+				2F7E55A826DC4C6A000EE4BB /* ViewModels */,
+				2F7E55AB26DC4CC7000EE4BB /* View */,
+				2F7E55A626DC4C5D000EE4BB /* Models */,
+				2F7E55AA26DC4C86000EE4BB /* Utils */,
 			);
 			path = YelpMVVm;
+			sourceTree = "<group>";
+		};
+		2F7E55A626DC4C5D000EE4BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F79207E26D85BE60000AC94 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2F7E55A726DC4C62000EE4BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F79208826D991430000AC94 /* CustomTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F7E55A826DC4C6A000EE4BB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2F7E55AE26DC7A5C000EE4BB /* ResturantDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2F7E55A926DC4C74000EE4BB /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				2F79206A26D84F1C0000AC94 /* AppDelegate.swift */,
+				2F79206C26D84F1C0000AC94 /* SceneDelegate.swift */,
+				2F79207026D84F1C0000AC94 /* Main.storyboard */,
+				2F79207326D84F230000AC94 /* Assets.xcassets */,
+				2F79207526D84F230000AC94 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		2F7E55AA26DC4C86000EE4BB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2F7E55A226DC02A3000EE4BB /* String.swift */,
+				2F4ABBED26DB23AD009351A4 /* UIIMageView+Ext.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2F7E55AB26DC4CC7000EE4BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F7E55B026DC7F88000EE4BB /* Controllers */,
+				2F7E55A726DC4C62000EE4BB /* Views */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F7E55B026DC7F88000EE4BB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F79206E26D84F1C0000AC94 /* ViewController.swift */,
+				2F79208A26D9B0D90000AC94 /* DetailViewController.swift */,
+				2F7E55B126DCBD2F000EE4BB /* HoverButton.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2F7E55B326DCC610000EE4BB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2F79208626D86A640000AC94 /* APICaller.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		AC99795B2D5FCC116E369CFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				450AC3A9D8EAFAB28D45BDAF /* Pods-YelpMVVm.debug.xcconfig */,
+				8E854AC89EBEADDD7D93ACF9 /* Pods-YelpMVVm.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F79207B26D84F230000AC94 /* Build configuration list for PBXNativeTarget "YelpMVVm" */;
 			buildPhases = (
+				7AD1FE51F1DB6D8F462CDBA0 /* [CP] Check Pods Manifest.lock */,
 				2F79206326D84F1C0000AC94 /* Sources */,
 				2F79206426D84F1C0000AC94 /* Frameworks */,
 				2F79206526D84F1C0000AC94 /* Resources */,
+				14794BF1CD60E2CB1E96D3CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,17 +246,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14794BF1CD60E2CB1E96D3CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YelpMVVm/Pods-YelpMVVm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YelpMVVm/Pods-YelpMVVm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YelpMVVm/Pods-YelpMVVm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AD1FE51F1DB6D8F462CDBA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YelpMVVm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2F79206326D84F1C0000AC94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F7E55B226DCBD2F000EE4BB /* HoverButton.swift in Sources */,
 				2F79206F26D84F1C0000AC94 /* ViewController.swift in Sources */,
 				2F79206B26D84F1C0000AC94 /* AppDelegate.swift in Sources */,
+				2F7E55A326DC02A3000EE4BB /* String.swift in Sources */,
 				2F79208926D991430000AC94 /* CustomTableViewCell.swift in Sources */,
-				2F79208226D85CAB0000AC94 /* FoodTableViewCell.swift in Sources */,
+				2F4ABBEE26DB23AD009351A4 /* UIIMageView+Ext.swift in Sources */,
 				2F79208726D86A640000AC94 /* APICaller.swift in Sources */,
 				2F79206D26D84F1C0000AC94 /* SceneDelegate.swift in Sources */,
+				2F7E55AF26DC7A5C000EE4BB /* ResturantDetailViewModel.swift in Sources */,
 				2F79207F26D85BE60000AC94 /* Models.swift in Sources */,
 				2F79208B26D9B0DA0000AC94 /* DetailViewController.swift in Sources */,
 			);
@@ -236,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -291,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -303,6 +447,7 @@
 		};
 		2F79207C26D84F230000AC94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 450AC3A9D8EAFAB28D45BDAF /* Pods-YelpMVVm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,6 +467,7 @@
 		};
 		2F79207D26D84F230000AC94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E854AC89EBEADDD7D93ACF9 /* Pods-YelpMVVm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
